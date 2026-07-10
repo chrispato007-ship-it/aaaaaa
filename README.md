@@ -1,11 +1,31 @@
-<div align="center">
+# Phadiscon LOVE 💖
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aplicación privada para parejas que sincroniza el ciclo menstrual, estados de ánimo, mensajes de amor, cupones y fotos instantáneas de 24 horas en tiempo real.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Cómo ejecutar en Replit
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Esta aplicación ya está configurada para funcionar de inmediato en **Replit**.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **Importar el proyecto**: Sube este directorio a un Repl de Node.js (TypeScript/React).
+2. **Instalar dependencias**: Replit instalará automáticamente los paquetes, pero puedes forzarlo ejecutando `npm install` en la pestaña de la consola.
+3. **Iniciar el Servidor**: Haz clic en el botón grande de **Run** en la parte superior. El archivo de configuración `.replit` arrancará el servidor de desarrollo en el puerto `3000` y abrirá la previsualización web.
 
-</div>
+## 📱 Configuración para Android Studio (Capacitor)
+
+El proyecto incluye soporte para compilarse como aplicación nativa de Android usando **Capacitor**.
+
+1. Construye los activos web:
+   ```bash
+   npm run build
+   ```
+2. Sincroniza los archivos con la carpeta nativa de Android:
+   ```bash
+   npx cap sync
+   ```
+3. Abre el proyecto en Android Studio:
+   ```bash
+   npx cap open android
+   ```
+
+---
+Creado con cariño para Antonia. 💕

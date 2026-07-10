@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "484263370492",
+    "project_id": "anto-64e8d",
+    "storage_bucket": "anto-64e8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484263370492:android:37c4db67cf828b24428179",
+        "android_client_info": {
+          "package_name": "pha.disc0n_love"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmH6hOlGyRxC0ZmhMv1knIkzMT2HO-O_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
