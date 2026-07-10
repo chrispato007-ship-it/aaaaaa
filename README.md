@@ -1,31 +1,20 @@
-# Phadiscon LOVE 💖
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Aplicación privada para parejas que sincroniza el ciclo menstrual, estados de ánimo, mensajes de amor, cupones y fotos instantáneas de 24 horas en tiempo real.
+# Run and deploy your AI Studio app
 
-## 🚀 Cómo ejecutar en Replit
+This contains everything you need to run your app locally.
 
-Esta aplicación ya está configurada para funcionar de inmediato en **Replit**.
+View your app in AI Studio: https://ai.studio/apps/4dada8a1-a670-4df7-9a5b-2c05babcee1d
 
-1. **Importar el proyecto**: Sube este directorio a un Repl de Node.js (TypeScript/React).
-2. **Instalar dependencias**: Replit instalará automáticamente los paquetes, pero puedes forzarlo ejecutando `npm install` en la pestaña de la consola.
-3. **Iniciar el Servidor**: Haz clic en el botón grande de **Run** en la parte superior. El archivo de configuración `.replit` arrancará el servidor de desarrollo en el puerto `3000` y abrirá la previsualización web.
+## Run Locally
 
-## 📱 Configuración para Android Studio (Capacitor)
+**Prerequisites:**  Node.js
 
-El proyecto incluye soporte para compilarse como aplicación nativa de Android usando **Capacitor**.
 
-1. Construye los activos web:
-   ```bash
-   npm run build
-   ```
-2. Sincroniza los archivos con la carpeta nativa de Android:
-   ```bash
-   npx cap sync
-   ```
-3. Abre el proyecto en Android Studio:
-   ```bash
-   npx cap open android
-   ```
-
----
-Creado con cariño para Antonia. 💕
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
